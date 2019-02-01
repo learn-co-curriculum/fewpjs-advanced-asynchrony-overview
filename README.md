@@ -20,23 +20,23 @@ In code, it looks something like this:
 
 ```javascript
 fetch('http://example.com/log_dogger', configObj)
-	.then(function(response) {
-		return response.text();
-	})
-	.then(function(content) {
-		if (response == 'OK') {
-			console.log('Added a new dog!');
-		}
-	})
-	.catch(function(error) {
-		alert('Bad things! Ragnarők!');
-		return 'This is an error message. There are many like it, but this one is for log_dogger';
-	});
+  .then(function(response) {
+    return response.text();
+  })
+  .then(function(content) {
+    if (response == 'OK') {
+      console.log('Added a new dog!');
+    }
+  })
+  .catch(function(error) {
+    alert('Bad things! Ragnarők!');
+    return 'This is an error message. There are many like it, but this one is for log_dogger';
+  });
 ```
 
 ## Looking Ahead
 
-Now that we know how to implment an asynchronous model using `fetch()`, it's
+Now that we know how to implement an asynchronous model using `fetch()`, it's
 time to dig a little deeper into exactly how it works and why. We're going to
 see how we conceptualize the process and replicate it without using `fetch()` at
 all. We'll also gain a stronger understanding of Promises by taking a look at
