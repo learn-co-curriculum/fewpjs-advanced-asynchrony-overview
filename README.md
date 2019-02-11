@@ -61,9 +61,8 @@ programs requires _us_ to evolve our thinking in interesting ways!
 
 ## Looking Ahead
 
-Now that we know how to implement an asynchronous model using `fetch()`, it's
+Now that we have refreshed how to implement an asynchronous model using `fetch()`, it's
 time to dig a little deeper into exactly how it works and why. We're going to
 see how we conceptualize the process and replicate it without using `fetch()` at
 all. We'll also gain a stronger understanding of Promises by taking a look at
-the Promise API. By the end, you'll be able to construct asynchronous JavaScript
-code that is both optimized and lightning fast.
+the Promise API. By the end, you'll be able to rewrite `fetch()` from scratch by yourself.
